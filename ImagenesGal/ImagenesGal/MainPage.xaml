@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ImagenesGal"
+             x:Class="ImagenesGal.MainPage">
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page1" >
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Android" Font="20" VerticalOptions="Center"/>
+                <Image Source="android1.png" WidthRequest="400" HeightRequest="400" HorizontalOptions="Center"></Image>
+
+                <Button Text="Me gusta 👍" Grid.Column="0" Grid.Row="0"  BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" x:Name="MS" Clicked="MabelS_Clicked"/>
+                <Button Text="No me gusta 👎" Grid.Column="1" Grid.Row="0" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" x:Name="MN" Clicked="MabelN_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page2">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Bart" Font="20" VerticalOptions="Center"/>
+                <Image Source="bart2.png" WidthRequest="400" HeightRequest="400"
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im2S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im2N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page3">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Cara" Font="20" VerticalOptions="Center"/>
+                <Image Source="cara3.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im3S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im3N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page4">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Gohan" Font="20" VerticalOptions="Center"/>
+                <Image Source="Gohan4.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im4S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im4N_Clicked"/>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page5">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Goku vs Vegeta" Font="20" VerticalOptions="Center"/>
+                <Image Source="Goku5.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im5S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im5N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page6">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Golf Gti" Font="20" VerticalOptions="Center"/>
+                <Image Source="golf_gti6.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im6S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im6N_Clicked" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page7">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Homero" Font="20" VerticalOptions="Center"/>
+                <Image Source="homero7.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" Grid.Column="0" Grid.Row="0" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im7S_Clicked"/>
+                <Button Text="No me gusta 👎" Grid.Column="1" Grid.Row="0" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im7N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page8">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Linux" Font="20" VerticalOptions="Center"/>
+                <Image Source="linux8.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im8S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im8N_Clicked"/>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page9">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Gohan" Font="20" VerticalOptions="Center"/>
+                <Image Source="Gohan4.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im9S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im9N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page10">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Golf Gti" Font="20" VerticalOptions="Center"/>
+                <Image Source="golf_gti6.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                <Button Text="Me gusta 👍" BackgroundColor="Gray" HorizontalOptions="Center"  
+                        Font="20" Clicked="Im10S_Clicked"/>
+                <Button Text="No me gusta 👎" BackgroundColor="Gray" HorizontalOptions="Center" 
+                        Font="20" Clicked="Im10N_Clicked"/>
+                
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page11">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Conteo.!!" Font="20" VerticalOptions="Center"/>
+                <Image Source="imagen.png" WidthRequest="400" HeightRequest="400" 
+                       HorizontalOptions="Center"></Image>
+                 <Button Text="Imagenes que me 👍" BackgroundColor="Gray" HorizontalOptions="Center" 
+                         Font="20" Clicked="Evaluar_Clicked"/>
+                <Button Text="Imagenes que no me 👎" BackgroundColor="Gray"  HorizontalOptions="Center" 
+                        Font="20" Clicked="EvaluarDL_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+
+
+</CarouselPage>
